@@ -8,3 +8,10 @@ System.Console.WriteLine($"Ayrirma {number1-number2}");
 System.Console.WriteLine($"Ko'paytma {number1*number2}");
 System.Console.WriteLine($"Bo'linma {number1/number2}");
 System.Console.WriteLine($"Qoldiq {number1%number2}");
+
+System.Console.WriteLine($"1-son 2-dan katta :{number1>number2}");
+System.Console.WriteLine($"1-son 2-dan kichik :{number1<number2}");
+System.Console.WriteLine($"1-son 2-dan katta yoki teng :{number1>=number2}");
+System.Console.WriteLine($"1-son 2-dan kichik yoki teng :{number1<=number2}");
+System.Console.WriteLine($"1-son 2-ga teng :{number1==number2}");
+System.Console.WriteLine($"1-son 2-ga teng emas :{number1!=number2}");
